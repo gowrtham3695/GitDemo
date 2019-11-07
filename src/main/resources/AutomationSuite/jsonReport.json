@@ -1,0 +1,118 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4050368926,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To verify  the mobile section navigation to play store",
+        "description": "",
+        "id": "to-test-the-mobile-sectoin;to-verify--the-mobile-section-navigation-to-play-store",
+        "after": [
+          {
+            "result": {
+              "duration": 2092481668,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8083291401,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The User is in Delta homepage",
+            "match": {
+              "location": "HomePageSteps.the_User_is_in_Delta_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10740981369,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user navigates to mobile section",
+            "match": {
+              "location": "HomePageSteps.the_user_navigates_to_mobile_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 286613762,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user clicks the play store icon",
+            "match": {
+              "location": "MobileSteps.the_user_clicks_the_play_store_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2788097400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should see the play store page",
+            "match": {
+              "location": "CommonSteps.the_user_should_see_the_play_store_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fly Delta - Apps on Google Play"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "To test the mobile sectoin",
+    "description": "",
+    "id": "to-test-the-mobile-sectoin",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/Mobile/Mobile.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@tag"
+      }
+    ]
+  }
+]
