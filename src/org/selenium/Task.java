@@ -1,4 +1,4 @@
-package org.prac;
+package org.selenium;
 
 public class Task {
 
